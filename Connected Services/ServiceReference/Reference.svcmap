@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9d768380-7a65-44cb-bb77-718e9598e955" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:59461/RESTfulTransactionService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="RESTfulTransactionService.xsd" MetadataType="Schema" ID="fc315332-3170-4bf2-a8d9-d363bc409621" SourceId="1" SourceUrl="http://localhost:59461/RESTfulTransactionService.svc?xsd=xsd2" />
+    <MetadataFile FileName="RESTfulTransactionService1.xsd" MetadataType="Schema" ID="1b5bc6ef-c95a-4057-93e9-fce273f3c69f" SourceId="1" SourceUrl="http://localhost:59461/RESTfulTransactionService.svc?xsd=xsd0" />
+    <MetadataFile FileName="RESTfulTransactionService.wsdl" MetadataType="Wsdl" ID="ba4991bc-2b69-45ec-a5c1-c42fd5bfc735" SourceId="1" SourceUrl="http://localhost:59461/RESTfulTransactionService.svc?wsdl" />
+    <MetadataFile FileName="RESTfulTransactionService2.xsd" MetadataType="Schema" ID="3b113b66-6bcd-413f-8c2a-4d3009c2b644" SourceId="1" SourceUrl="http://localhost:59461/RESTfulTransactionService.svc?xsd=xsd1" />
+    <MetadataFile FileName="RESTfulTransactionService.disco" MetadataType="Disco" ID="ec0dafae-a575-47be-9a63-2a91fb617331" SourceId="1" SourceUrl="http://localhost:59461/RESTfulTransactionService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
